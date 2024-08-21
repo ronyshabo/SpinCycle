@@ -47,21 +47,6 @@ bash
 yarn dev
 This will start the development server, and you can view your app in the browser at http://localhost:5173.
 
-Project Structure
-A brief overview of the project structure:
-
-
-├── public             # Static assets (index.html, favicon, etc.)
-├── src                # Source files
-│   ├── assets         # Images, icons, etc.
-│   ├── components     # Reusable components
-│   ├── pages          # Page components
-│   ├── App.jsx        # Main application component
-│   ├── main.jsx       # Entry point for the app
-│   └── index.css      # Global styles
-├── .gitignore         # Files and directories to be ignored by git
-├── package.json       # Project metadata and dependencies
-└── vite.config.js     # Vite configuration
 Available Scripts
 In the project directory, you can run:
 
