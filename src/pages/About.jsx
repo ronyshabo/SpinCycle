@@ -7,6 +7,10 @@ import locker2 from "../assets/imgs/y1.webp";
 import locker3 from "../assets/imgs/y2.webp";
 import lockersWall from "../assets/imgs/4lockers.png";
 import lockersDims from "../assets/imgs/lockersdims.webp";
+import Location from "../assets/imgs/location.svg";
+import Phone from "../assets/imgs/phone.svg";
+import Email from "../assets/imgs/email.svg";
+import Clock from "../assets/imgs/clock.svg";
 
 const About = () => {
   const location = useLocation();
@@ -30,9 +34,7 @@ const About = () => {
             <br />
             <br />
             <h1 className="introTitle">ABOUT US</h1>
-            <p className="paragraphAbout">
-              
-            </p>
+            <p className="paragraphAbout"></p>
           </center>
         </div>
 
@@ -155,10 +157,8 @@ const About = () => {
             </div>
           </div>
           <br />
-
-          
         </center>
-        
+
         <center>
           <div className="contactSection">
             <br />
@@ -178,7 +178,38 @@ const About = () => {
               Reach out to us at SpinCycleaustintx@gmail.com <br />
               or call us at (512)380-0218.
             </p>
-            <iframe src="https://snazzymaps.com/embed/633857" width="65%" height="400px" style={{ border: "none" }}></iframe>
+            <div className="contacts">
+              <div className="withIcon">
+                <img src={Location} />
+                <h2>Address</h2>
+                <p>
+                  3501 Guadaloupe st,
+                  <br /> Austin TX 78705
+                </p>
+              </div>
+              <div className="withIcon">
+                <img src={Phone} />
+                <h2>Phone</h2>
+                <p>(512) 380-0218</p>
+              </div>
+              <div className="withIcon">
+                {" "}
+                <img src={Email} />
+                <h2>E-mail</h2>
+                <p>SpinCycleaustintx@gmail.com</p>
+              </div>
+              <div className="withIcon">
+                <img src={Clock} />
+                <h2>Opening Hours</h2>
+                <p>Daily: 07:00am - 11:00pm</p>
+              </div>
+            </div>
+            <iframe
+              src="https://snazzymaps.com/embed/633857"
+              width="65%"
+              height="400px"
+              style={{ border: "none" }}
+            ></iframe>
           </div>
         </center>
       </div>

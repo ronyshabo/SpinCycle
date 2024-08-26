@@ -87,6 +87,15 @@
     max-width: 500px;
     margin: 20px;
 }
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 80px 0;
+}
+.withIcon{
+    width: 250px;
+}
 @media (max-width: 768px) {
     .introSection, .storySection, .missionSection, .valuesSection, .contactSection{
         height: auto;
