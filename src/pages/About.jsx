@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "./About.css";
-import hanged from "../assets/imgs/ideogram15.png";
+import hanged from "../assets/imgs/hall.jpg";
 import locker1 from "../assets/imgs/lis.webp";
 import locker2 from "../assets/imgs/y1.webp";
 import locker3 from "../assets/imgs/y2.webp";

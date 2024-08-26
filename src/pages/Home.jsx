@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
-import heroSectionImg from "../assets/imgs/ideogram9.jpeg";
-import denimshirts from "../assets/imgs/ideogram1.jpeg";
-import threeColumnTshirts from "../assets/imgs/ideogram11.jpeg";
+import heroSectionImg from "../assets/imgs/hero.jpg";
+import denimshirts from "../assets/imgs/shirts.jpg";
+import threeColumnTshirts from "../assets/imgs/threedryers.jpg";
 
 const Home = () => {
   const navigate = useNavigate();
