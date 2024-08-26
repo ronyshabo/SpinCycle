@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "../assets/imgs/SpinCycle.png";
+import logo from "../assets/imgs/SpinCycleLogo.png";
 
 // Test for Rony
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
         <p>© 2024 Spincycle Coin Laundry Services. All rights reserved.</p>
         <div>
           <a href="mailto:SpinCycleaustintx@gmail.com">
-          SpinCycleaustintx@gmail.com
+            SpinCycleaustintx@gmail.com
           </a>
           <p className="round1">(512)380-0218</p>
         </div>

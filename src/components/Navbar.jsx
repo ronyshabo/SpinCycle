@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "../assets/imgs/SpinCycle.png";
+import Logo from "../assets/imgs/SpinCycleLogo.png";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
@@ -36,7 +36,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`nav ${isVisible ? "visible" : "hidden"} ${isMenuOpen ? "menu-open" : ""}`}>
+    <nav
+      className={`nav ${isVisible ? "visible" : "hidden"} ${
+        isMenuOpen ? "menu-open" : ""
+      }`}
+    >
       <div className="logo">
         <img src={Logo} alt="Logo" style={{ height: "120px" }} />
       </div>
@@ -54,7 +58,10 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className={`hamburger ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>
+      <div
+        className={`hamburger ${isMenuOpen ? "open" : ""}`}
+        onClick={toggleMenu}
+      >
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
