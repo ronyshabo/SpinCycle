@@ -78,14 +78,6 @@ const About = () => {
                   building strong relationships with our customers and partners.
                 </p>
               </div>
-              <div className="valueBox">
-                <h3>Convenience</h3>
-                <p className="C1paragraph">
-                  Your time is valuable. Our services are designed to be as
-                  convenient as possible, offering flexible scheduling, easy
-                  online ordering, and timely deliveries to fit your busy life.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -183,7 +175,7 @@ const About = () => {
                 <img src={Location} />
                 <h2>Address</h2>
                 <p>
-                  3501 Guadaloupe st,
+                  3501 Guadalupe st,
                   <br /> Austin TX 78705
                 </p>
               </div>
