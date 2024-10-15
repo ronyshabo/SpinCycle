@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "../assets/imgs/SpinCycleLogo.png";
+import Logo from "../assets/Washateria-new-Logo.png";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {

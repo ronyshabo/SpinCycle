@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "../assets/imgs/SpinCycleLogo.png";
+import logo from "../assets/Washateria-new-Logo.png";
 
 // Test for Rony
 const Footer = () => {
